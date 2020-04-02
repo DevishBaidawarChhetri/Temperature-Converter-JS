@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+</head>
+<body class="bg-secondary">
+    <div class="container bg-secondary p-3">
+        <h1 class="display-5 text-center bg-dark text-white p-3">Temperature Calculator</h1>
+        <div class="form-group">
+            <label for="celsius" class="text-white">Degree Celsius</label>
+            <input type="text" class="form-control" id="celsius" placeholder="Value in Celsius" onkeyup="getCelsiusValue()">
+        </div>
+        <div class="form-group">
+            <label for="fahrenheit" class="text-white">Degree Fahrenheit</label>
+            <input type="text" class="form-control" id="fahrenheit" placeholder="Value in Fahrenheit" onkeyup="getFahrenheitValue()">
+        </div>
+        <div class="form-group">
+            <label for="kelvin" class="text-white">Degree Kelvin</label>
+            <input type="text" class="form-control" id="kelvin" placeholder="Value in Kelvin" onkeyup="getKelvinValue()">
+        </div>
+        <p class="bg-dark text-white p-3 text-center">Hope you like this one!</p>
+    </div>
+    <span class="fork-gh bg-success text-white"><a href="https://github.com/DevishBaidawarChhetri/Temperature-Converter-JS" target="_blank">Fork on GitHub</a></span>
+    <script src="./js/script.js"></script>
+</body>
+</html>
